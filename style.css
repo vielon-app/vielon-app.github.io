@@ -1,0 +1,15 @@
+:root { --fg:#1f2330; --sub:#5b6170; --line:#e3e5ec; --accent:#4f46e5; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+       color:var(--fg); line-height:1.8; background:#fff; }
+main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+header { border-bottom: 1px solid var(--line); }
+header div { max-width: 760px; margin: 0 auto; padding: 14px 20px; display:flex; gap:20px; align-items:center; }
+header a { color: var(--fg); text-decoration:none; font-size: 14px; }
+header .logo { font-weight: 700; font-size: 18px; margin-right:auto; letter-spacing: .02em; }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 19px; margin: 36px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+p, li { font-size: 15.5px; }
+.sub { color: var(--sub); font-size: 14px; }
+a { color: var(--accent); }
+footer { color: var(--sub); font-size: 13px; text-align:center; padding: 24px; border-top:1px solid var(--line); }
